@@ -48,8 +48,8 @@ Esta ontología podrá sufrir cambios hasta que se consiga un acuerdo suficiente
         <owl:versionInfo xml:lang="es">Esta es la primera versión del vocabulario, que da soporte a las preguntas planteadas en el contexto del grupo de trabajo de AENOR que ha dado lugar a la norma UNE 178301</owl:versionInfo>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre presupuestos de entidades locales (incluyendo gastos e ingresos)</dc:title>
         <cc:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto.html"/>
-        <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto.owl"/>
+        <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuestos.html"/>
+        <dcterms:hasFormat rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuestos.owl"/>
         <vann:preferredNamespaceUri rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#"/>
         <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto/0.1"/>
     </owl:Ontology>
