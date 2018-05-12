@@ -1,0 +1,211 @@
+{
+  "@context" : {
+    "año" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#año"
+    },
+    "derechosCancelados" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#derechosCancelados",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Capitulo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#Capitulo"
+    },
+    "concepto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#concepto",
+      "@type" : "@id"
+    },
+    "modificacionCreditoPresupuestario" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#modificacionCreditoPresupuestario",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "clasificacionFuncional" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#clasificacionFuncional",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "politicaGasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#politicaGasto",
+      "@type" : "@id"
+    },
+    "gastoComprometido" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#gastoComprometido",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "remanentesCredito" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#remanentesCredito",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "trimestre" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#trimestre"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "PolíticaGasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#PolíticaGasto"
+    },
+    "ProgramaGasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#ProgramaGasto"
+    },
+    "creditoDefinitivo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#creditoDefinitivo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Ingreso" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#Ingreso"
+    },
+    "obligacionesPendientesPagoDiciembre" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#obligacionesPendientesPagoDiciembre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Subconcepto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#Subconcepto"
+    },
+    "derechosReconocidosNetos" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#derechosReconocidosNetos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Articulo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#Articulo"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "Concepto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#Concepto"
+    },
+    "Gasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#Gasto"
+    },
+    "gradoRealizacion" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#gradoRealizacion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "clasificacionEconomica" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#clasificacionEconomica",
+      "@type" : "@id"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "recaudacionNeta" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#recaudacionNeta",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/terms/identifier"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "capitulo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#capitulo",
+      "@type" : "@id"
+    },
+    "GrupoProgramas" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#GrupoProgramas"
+    },
+    "modificacionPrevisionPresupuestaria" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#modificacionPrevisionPresupuestaria",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "provisionPresupuestariaDefinitiva" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#provisionPresupuestariaDefinitiva",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/terms/type",
+      "@type" : "@id"
+    },
+    "derechosReconocidos" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#derechosReconocidos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "subconcepto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#subconcepto",
+      "@type" : "@id"
+    },
+    "obligacionesReconocidasNetas" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#obligacionesReconocidasNetas",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "creditoPresupuestarioInicial" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#creditoPresupuestarioInicial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "AreaGasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#AreaGasto"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "programaGasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#programaGasto",
+      "@type" : "@id"
+    },
+    "pagos" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#pagos",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "articulo" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#articulo",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "previsionPresupuestariaInicial" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#previsionPresupuestariaInicial",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "derechosPendientesCobro" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#derechosPendientesCobro",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "areaGasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#areaGasto",
+      "@type" : "@id"
+    },
+    "hasFormat" : {
+      "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "GrupoClasificacionEconomica" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#GrupoClasificacionEconomica"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "grupoProgramasGasto" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#grupoProgramasGasto",
+      "@type" : "@id"
+    },
+    "derechosAnulados" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#derechosAnulados",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "GrupoClasificacionFuncional" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto#GrupoClasificacionFuncional"
+    },
+    "municipio" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#municipio",
+      "@type" : "@id"
+    }
+  }
+}
