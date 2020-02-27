@@ -1,7 +1,13 @@
 # hacienda-presupuesto
-Este repositorio contiene el material relacionado con el vocabulario para la descripción de datos relacionados con los presupuestos de las entidades locales en España, incluyendo gastos e ingresos, que se identifica (y publica) en la siguiente URI:
+Este repositorio está deprecado, puesto que se ha trabajado en una nueva versión en el contexto del proyecto Ciudades Abiertas. Por tanto, la nueva versión del vocabulario estará disponible en 
 
-http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto
+https://github.com/opencitydata/hacienda-presupuesto (que es una copia del repositorio correspondiente de Ciudades Abiertas (https://github.com/CiudadesAbiertas/vocab-hacienda-presupuesto)
+
+## Información de versiones previas
+
+Este repositorio contenía el material relacionado con el vocabulario para la descripción de datos relacionados con los presupuestos de las entidades locales en España, incluyendo gastos e ingresos, que se identifica (y publica) en la siguiente URI:
+
+http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuesto (deprecado)
 
 La primera versión de este vocabulario fue publicada en junio del año 2015. El historial de cambios, así como los issues que se generaron para esta primera versión, fueron gestionados en el repositorio general sobre datos abiertos que se encuentra en https://github.com/opencitydata/vocabularios-datos-abiertos, y que se encuentra en estado *deprecated*, dado que posterioremente se decidió crear un repositorio en GitHub por cada uno de los vocabularios con los que se estaba trabajando, por comodidad.
 
